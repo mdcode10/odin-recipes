@@ -31,7 +31,9 @@ body{
     background-color:burlywood;
 }
 
-#recipe-one     {
+#recipe-one,
+#recipe-two,
+#recipe-three     {
     font-family:"Papyrus", "fantasy";
     text-align:center;
     font-size:50px;
@@ -70,16 +72,14 @@ text-align:left;}
     background-color:pink;
 }
 
-#recipe-two{font-family:"Papyrus", "fantasy";
-    text-align:center;
-    font-size:50px;
+#recipe-two{
     color:rgb(68, 12, 12);
 }
 
 .tart-list{
     color:black;
     font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
+    font-size:20px;
     line-height:2;
 }
 
@@ -95,3 +95,10 @@ text-align:left;}
     font-size:25px;
 }
 
+#recipe-three{
+    color:rgb(207, 12, 12);
+}
+
+.body-tart{
+    background-color:rgb(186, 241, 186);
+}
